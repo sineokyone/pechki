@@ -148,14 +148,58 @@ h1,h2,h3,h4,h5,h6 {
 	left: 50%;
 	max-width: 600px;
 	width: 100%;
-	background: white;
+	background: rgb(112, 112, 112, 0.2);
 	transform: translate(-50%, -50%);
 	padding-top: 60px;
+	border-radius: 31px;
 }
 .close-popup{
 	position: absolute;
 	top: 30px;
 	right: 30px;
 	cursor: pointer;
+	border-radius: 31px;
 
+}
+
+.svaz{
+	display: inline-block;
+	vertical-align: top;
+	text-align: center;
+	font-size: 18px;
+	text-transform: uppercase;
+	color: rgb(0, 0, 0);
+	text-decoration: none;
+	background: rgb(255, 0, 0);
+	border-radius: 31px;
+	margin: 10px 10px;
+	width: 97%;
+	height: 70px;
+	padding-top: 20px;
+
+}
+
+
+
+.karta{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 900px;
+	max-height: 550px;
+	width: 100%;
+	height: 100%;
+	background: white;
+	transform: translate(-50%, -50%);
+}
+
+.pechki{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	max-width: 900px;
+	max-height: 550px;
+	width: 100%;
+	height: 100%;
+	transform: translate(-50%, -50%);
 }
