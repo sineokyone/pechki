@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6 {
 	width: 100%;
 	background: rgb(112, 112, 112, 0.2);
 	transform: translate(-50%, -50%);
-	padding-top: 60px;
+	padding: 40px 40px;
 	border-radius: 31px;
 }
 .close-popup{
@@ -173,7 +173,7 @@ h1,h2,h3,h4,h5,h6 {
 	background: rgb(255, 0, 0);
 	border-radius: 31px;
 	margin: 10px 10px;
-	width: 97%;
+	width: 95%;
 	height: 70px;
 	padding-top: 20px;
 
