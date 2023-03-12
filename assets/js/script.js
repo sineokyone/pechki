@@ -1,6 +1,6 @@
 window.onload = function () {
   //функции при запуске страницы
-  Looper()
+  textPupSimple()
   titleArr()
   // newUser()
   // getColorInput()
@@ -34,22 +34,27 @@ function titleArr(){
 		Looper();
 }
 
-// window.addEventListener("load", function() {
-//   var f = document.getElementById('textPup');
-//   setInterval(function() {
-//       f.style.color = (f.style.color == 'red' ? '' : 'red');
-//   }, 800);
+window.addEventListener("load", function() {
+  var f = document.getElementById('textPup');
+  setInterval(function() {
+      f.style.color = (f.style.color == 'red' ? '' : 'red');
+  }, 800);
 
-// }, false);
+}, false);
 
-var arr = ["С","В","Я","З","А","Т","Ь","С","Я","!"];
-let elem = document.getElementById("textPup");
-function Looper(){
-  for (let i = 0; i <= arr.length; i++){
-  setTimeout( function timer(){
-    elem.textContent += arr[i]
-    if(i === arr.length){
-       elem.textContent = ""
-       Looper();}}, i*300 );
-    }
-}
+
+
+// function textPupSimple(){
+// var arr = ["С","В","Я","З","А","Т","Ь","С","Я","!"];
+// let elem = document.getElementById("textPup");
+// function textTitle(){
+//   for (let i = 0; i <= arr.length; i++){
+//   setTimeout( function timer(){
+//     elem.textContent += arr[i]
+//     if(i === arr.length){
+//        elem.textContent = "СВЯЗАТЬСЯ"
+//        textTitle();}}, i*500 );
+//     }
+// }
+// textTitle()
+// }
