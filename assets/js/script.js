@@ -52,7 +52,7 @@ window.addEventListener("load", function() {
 //   setTimeout( function timer(){
 //     elem.textContent += arr[i]
 //     if(i === arr.length){
-//        elem.textContent = "СВЯЗАТЬСЯ"
+//        elem.textContent = ""
 //        textTitle();}}, i*500 );
 //     }
 // }
